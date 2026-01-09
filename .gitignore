@@ -1,1 +1,73 @@
-/node_modules
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Secrets
+api/config/jsonSecret.js
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Build/Dist
+dist/
+build/
+*.tsbuildinfo
+
+# Testing
+coverage/
+.nyc_output/
+
+# Misc
+.cache/
+.env.test
+.vuepress/dist
+*.tgz
+.yarn-integrity
+.yarn/cache
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# IDE specific
+*.iml
+.gradle
+*.iml
+
+# Insomnia
+.insomnia/
